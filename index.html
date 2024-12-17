@@ -9,43 +9,38 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <title>What's for Dinner?</title>
+    <title>Recipe Buddy</title>
   </head>
   <body>
     <div class="container">
       <!-- Header -->
-      <header
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
-      >
-        <a
-          href="/"
-          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-        >
-          <svg class="bi me-2" width="40" height="32">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-          <span class="fs-4">What's for Dinner?</span>
-        </a>
 
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="#" class="nav-link active" aria-current="page">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#filter" class="nav-link">Find a Meal</a>
-          </li>
-        </ul>
-      </header>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="mx-auto d-block" id="logo" src="./Assets/Logo.png" alt="Recipe Buddy" />
+            <nav
+              class="navbar navbar-expand-sm bg-light bg-body-tertiary justify-content-center"
+            >
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control"
+                  type="search"
+                  placeholder="Search recipes" id="search-bar"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- Filter   -->
 
-      <!-- Filter using a form to select ingredients, button to search at the end.  -->
-      <h2 id="filter">Find a Meal</h2>
-      <form>
-        <button type="submit" class="btn" id="search">Search</button>
-      </form>
-
-      <!-- Search results -->
-      <h2 id="recipe">Recipe</h2>
-
+      <!-- Recipe Cards -->
+     
       <!-- Footer -->
       <div class="container">
         <footer
@@ -63,7 +58,7 @@
           <ul class="nav col-md-4 justify-content-end">
             <li class="nav-item">
               <a href="#filter" class="nav-link px-2 text-body-secondary"
-                >Find a Meal</a
+                >Recipe Buddy</a
               >
             </li>
           </ul>

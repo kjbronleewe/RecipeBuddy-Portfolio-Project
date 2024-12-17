@@ -1,0 +1,19 @@
+body {
+    background-color: #FFF0DC;
+}
+
+#logo {
+    height: 10px;
+    justify-content: center;
+
+}
+
+
+.navbar {
+    position: fixed;
+    justify-content: center;
+}
+
+#search-bar {
+    width: 300px;
+}
