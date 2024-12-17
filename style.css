@@ -1,33 +1,39 @@
 body {
-    background-color: #f4fcf1 !important;
+  background-color: #f4fcf1;
 }
 
 #logo {
-    width: 240px;
-    justify-content: center;
+  width: 240px;
+  justify-content: center;
 }
 
-
 .navbar {
-    position: fixed;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.navbar .d-flex {
+  justify-content: center;
+  width: 100%;
 }
 
 #search-bar {
-    width: 300px;
+  width: 500px;
+  z-index: 10;
 }
 
 #card-container {
-    margin-top: 1.5rem;
+  margin-top: 5rem;
 }
 
 .btn-light {
-    --bs-btn-bg: #feeecc !important;
-    --bs-btn-color: #572c0f !important;
-    --bs-btn-hover-bg: #f2ddaf !important;
-    --bs-btn-hover-color: #572c0f !important;
-    --bs-btn-hover-border-color: transparent !important;
-    --bs-btn-active-bg: #eed39a !important;
-    --bs-btn-active-color: #572c0f !important;
-    --bs-btn-active-border-color: transparent !important;
+  --bs-btn-bg: #feeecc;
+  --bs-btn-color: #572c0f;
+  --bs-btn-hover-bg: #f2ddaf;
+  --bs-btn-hover-color: #572c0f;
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-active-bg: #eed39a;
+  --bs-btn-active-color: #572c0f;
+  --bs-btn-active-border-color: transparent;
 }
