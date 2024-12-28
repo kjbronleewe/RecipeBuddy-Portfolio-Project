@@ -23,6 +23,23 @@ body {
   z-index: 10;
 }
 
+#description img{
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 50%;
+}
+
+#description h4, p{
+  text-align: center;
+}
+
 #card-container {
   margin-top: 5rem;
   display: flex;

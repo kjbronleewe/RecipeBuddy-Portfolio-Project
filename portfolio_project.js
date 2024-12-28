@@ -20,8 +20,11 @@ async function fetchData() {
     
 }
 const cardDiv=document.querySelector('#card-container');
+const descriptionDiv=document.querySelector('#description');
 
 function displayMeals(meals){
+    descriptionDiv.remove(descriptionDiv.firstElementChild);
+ 
     for (let meal of meals){
         let mealDiv=document.createElement('div');
         cardDiv.appendChild(mealDiv);
