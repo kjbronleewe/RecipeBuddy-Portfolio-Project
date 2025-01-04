@@ -21,9 +21,14 @@ body {
 #search-bar {
   width: 500px;
   z-index: 10;
+  margin-bottom: 10px;
 }
 
-#description img{
+p {
+  font-size: larger;
+}
+
+#description img {
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -36,7 +41,8 @@ body {
   width: 50%;
 }
 
-#description h4, p{
+#description h4,
+p {
   text-align: center;
 }
 
@@ -57,4 +63,35 @@ body {
   --bs-btn-active-bg: #eed39a;
   --bs-btn-active-color: #572c0f;
   --bs-btn-active-border-color: transparent;
+}
+
+.meal-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 5px; 
+  margin-bottom: 10px;
+}
+
+.meal-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 250px;
+  text-align: center;
+
+}
+
+.recipe-link {
+  color: #572c0f;
+  text-decoration: none;
+  padding: 3px;
+  border: 1px solid #572c0f;
+  border-radius: 5px;
+  transition: color 0.3s;
+  margin-bottom: 15px;
+}
+
+.recipe-link:hover {
+  color: darkblue;
 }
