@@ -5,9 +5,9 @@
   </a>
 </p>
 
-> An JavaScript application that uses a recipe API to fetch recipes filtered by ingredients. 
+> A JavaScript application that uses a free API to fetch recipes. The app allows users to filter the search by ingredients and links to an external website. This project was built with HTML, CSS and JavaScript.
 
-### ✨ [Demo] 
+### ✨ Demo 
 
 
 
@@ -26,9 +26,6 @@ npm install
 👤 **Kelly Bronleewe, Minjoo Yun, Sarah Williams, Ryma Hadia**
 
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
