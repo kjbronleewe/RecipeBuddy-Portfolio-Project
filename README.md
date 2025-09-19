@@ -7,7 +7,13 @@
 
 > An JavaScript application that uses a recipe API to fetch recipes filtered by ingredients. 
 
-### ✨ [Demo] (https://github.com/kjbronleewe/RecipeBuddy-Portfolio-Project/issues/1#issue-3435518647)
+### ✨ [Demo] 
+
+
+
+https://github.com/user-attachments/assets/d3a0a194-b342-4ad5-847d-b00431be7ac8
+
+
 
 ## Install
 
